@@ -1,0 +1,35 @@
+body{
+    background-color: #D3D3D3;
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 10px 10%;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 300%;
+
+}
+
+img{
+    float: left;
+}
+em{
+    color: red;;
+}
+
+p{
+    margin-left: 9%;
+    margin-right: 9% ;
+}
+strong{
+    background-color: white;
+}
+
+.titulos{
+    background-color: #808080;
+    color: white;
+    padding: 0.5%;
+    font-size: 200%;
+}
