@@ -1,8 +1,39 @@
 body{
     background-color: #C6E0EC;
+    font-family: sans-serif;
 }
 
 h1{
-    text-decoration:underline 2px;
+    text-decoration:underline 5px;
     text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    background-color: #4099BF;
+    font-size: 2rem;
+
+}
+
+li{
+    list-style: none;
+    padding-bottom: 1%;
+    font-style: italic;
+}
+
+h3{
+    background-color: #79B8D2;
+    color: white;
+    font-size: 1.5rem;
+}
+
+pre{
+    background-color: white;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+address{
+    text-align: right;
 }
