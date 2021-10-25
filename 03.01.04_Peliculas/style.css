@@ -1,0 +1,29 @@
+body{
+    background-color: #FFEACC;
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #995900;
+}
+
+summary .impar{
+    background-color: #FFCCEA;
+}
+
+summary .par{
+    background-color: #FFFFFF;
+}
+
+details summary{
+    font-size: 400%;
+}
+
+p{
+    font-size: 200%;
+}
+
+.subtitulo{
+    color: #FF9C00;
+}
