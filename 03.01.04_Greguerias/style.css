@@ -1,0 +1,35 @@
+body{
+    background-color: #2D8652;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 300%;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 150%;
+}
+
+.blanco{
+    color:#FFFDDE;
+    font-family: serif;
+    font-style: oblique;
+}
+
+.naranja{
+    color: #FF9F1A;
+    letter-spacing: 0.15rem;
+    font-family: monospace;
+    font-size: 180%;
+}
+
+.rojo{
+    color: #E6194D;
+    font-family: cursive;
+}
+
+.beige{
+    color: #FFDFB3;
+}
