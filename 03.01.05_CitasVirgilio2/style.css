@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Lobster&family=Ribeye+Marrow&display=swap');
+
+@font-face {
+    font-family: "lobster";
+    src: url(lobster.woff);
+}
+
+@font-face {
+    font-family: "another";
+    src: url(just-another-hand.woff);
+}
+body{
+    background-color: #CBAC4D;
+
+}
+
+h1{
+
+    font-family: 'Ribeye Marrow';
+    letter-spacing: 0.5em;
+    font-size: 300%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.principal{
+    text-align: justify;
+    font-family: sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 200%;
+
+}
+span{
+    text-decoration: underline;
+}
+
+.izquierda{
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.derecha{
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-align: right;
+    letter-spacing: 1.5px;
+}
