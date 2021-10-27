@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "sigmar";
+    src: url("sigmar-one.woff");
+}
+body{
+    background-color: #E9F2FB;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+h1{
+    font-family: "sigmar";
+    text-align: center;
+    font-size: 3rem;
+}
+
+hr{
+    clear: both;
+    width: 70%;
+    height: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #7A99B8;
+
+}
+
+img.izquierda{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+img.derecha{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: "sigmar";
+    color: #7A99B8;
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: 3px 3px black;
+}
+
+img{
+    border: 5px solid #7A99B8;
+    padding: 0.4em;
+}
+
+img.izquierda {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+p.izquierda{
+    float: left;
+    width: 33%;
+}
+
+p.centrado{
+    text-align:center;
+}
+
+address{
+    text-align: right;
+}
+
+i{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+strong{
+    color: red;
+    background-color: white;
+}
+
+time{
+    color: blue;
+}
