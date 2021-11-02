@@ -1,0 +1,35 @@
+body{
+    background-color: #8A675C;
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: white;
+}
+
+h1{
+    margin-top: 0px;
+    font-size: 150%;
+    text-align: center;
+}
+
+p{
+    line-height: 50px;
+}
+
+nav{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p a{
+    border: 5px solid #195366;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #D6EDF5;
+    color: #195366;
+    padding: 5px;
+    margin: 10px;
+}
