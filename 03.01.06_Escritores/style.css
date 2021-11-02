@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "playball";
+    src: url(playball.woff);
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: "playball";
+    text-align: justify;
+    margin: 0px;
+}
+
+header{
+    background-color: #E64D19;
+}
+
+h1{
+    color:white;
+    text-align: left;
+    font-size: 300%;
+    text-transform: uppercase;
+    margin: 0;
+    padding : 10px 10px 40px;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 5px solid #E64D19;
+    border-right: 5px solid #E64D19;
+    display: block;
+}
+
+article{
+    clear: both;
+}
+
+article.siglo{
+    margin: 40px;
+    padding-bottom: 20px;
+    background-color: #FFD9CC;
+}
+
+h2, h3{
+    margin:0px;
+    padding-left: 8px;
+    background-color: #FF6633;
+    color: white;
+}
+
+article.siglo article{
+    overflow:auto;
+    margin: 40px 10%;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+article article p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside{
+    float: right;
+    border-left: 4px solid #FF6633;
+    margin: 10px;
+    padding: 35px;
+
+}
+
+aside p{
+    margin: 0px;
+    text-align: center;
+}
+
+footer{
+    background-color: #E64D19;
+}
+
+footer p {
+    margin: 0px;
+    color: white;
+    padding:5px;
+}
