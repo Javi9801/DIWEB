@@ -1,0 +1,44 @@
+body{
+    background-color: #4DB3AA;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    color: #004D46;
+    text-align: center;
+    font-size: 250%;
+    margin: 0px;
+}
+
+p.enlaces{
+    font-weight: bold;
+    text-align: left;
+}
+
+a{
+    color: #004D46;
+}
+
+a:visited{
+    color: #E64D00;
+}
+
+section{
+    clear: both;
+    overflow: auto;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+section.uno{
+    border: 20px solid #E64D00;
+}
+
+section.dos{
+    border: 20px solid #FFAA33;
+}
+
