@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "slackey";
+    src: url("../fonts/slackey.woff2");
+}
+
+body{
+    background: url("../img/violeta.png") repeat-y top left, url("../img/violeta.png") repeat-y right top;
+    background-color: #A4C6EC;
+    background-size: 50px;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+}
+
+h1{
+    font-family: "slackey";
+    text-align: center;
+    color: #5C59A4;
+    letter-spacing: 8px;
+}
+
+hr{
+    background-color: #5C59A4;
+    height: 6px;
+}
+
+.principal{
+    background-color: white;
+    margin-top: 0;
+    font-size: 2em;
+    padding: 2px;
+
+}
+
+.principal img{
+    float: left;
+    padding: 2px;
+    border: 2px solid black;
+    margin-right: 2px;
+
+}
+
+
+.impar{
+    margin: 10x;
+    width: 30%;
+    background-color: #F28226;
+    display: inline-block;
+    border: 6px dashed white;
+}
+
+.par p{
+    font-size: 200%;
+}
+
+.impar p{
+    font-size: 200%;
+}
+
+.par{
+    background: url("../img/verde.png");
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+    border: 6px solid green;
+    border-radius: 10px;
+}
