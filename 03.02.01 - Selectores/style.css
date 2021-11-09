@@ -73,7 +73,7 @@ ul{
 .navegacion{
     width: 30%;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     display: inline-block;
     text-align: center;
 }
@@ -85,8 +85,43 @@ ul li a{
 
 a[rel='next']::before {
     font-weight: 900;
-    font-family: " Font Awesome 5 Free ";
-    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    content: "\f055";
+
+}
+
+a[rel='tag']::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f07a";
+
+}
+
+a[rel='bookmark']::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+
+}
+
+a[rel='help']::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f1c1";
+
+}
+
+a[rel='search']::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+
+}
+
+a[rel='nofollow']::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f3ed";
 
 }
 
