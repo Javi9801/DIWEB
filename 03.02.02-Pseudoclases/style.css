@@ -75,7 +75,7 @@ h2:nth-child(2){
     color: #DC143C;
 }
 
-li:nth-child(3){
+li:nth-child(3):hover{
     color: #98FF98;
 }
 
@@ -86,6 +86,20 @@ li{
     display: list-item;
 }
 
-/* li .par:hover{
+li:nth-child(2n):hover::after{
+    display: inline;
+    content: " Somos elementos pares ";
+    font-weight: bold;
+    color: black;
+    text-align: center;
 
-} */
+}
+
+li:nth-child(2n+1):hover::before{
+    display: inline;
+    content: " Somos elementos impares ";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+}
