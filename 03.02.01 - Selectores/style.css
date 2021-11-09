@@ -83,10 +83,10 @@ ul li a{
     color: black;
 }
 
-a::before{
+a[rel='next']::before {
     font-weight: 900;
-    content: "\f055";
     font-family: " Font Awesome 5 Free ";
+    content: "\f007";
 
 }
 
