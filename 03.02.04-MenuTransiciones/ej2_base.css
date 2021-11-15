@@ -94,3 +94,13 @@ li{
     transition: background-color 2s ease-in-out 1.5;
     background-color: #00A53C;
 }
+
+.recursos:hover{
+    transition: background-color 2s ease-in-out 1.5;
+    background-color: #B81800;
+}
+
+.contacto:hover{
+    transition: background-color 2s ease-in-out 1.5;
+    background-color: #9600B4;
+}
