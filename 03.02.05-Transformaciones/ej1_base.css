@@ -1,0 +1,137 @@
+.container{
+    position: relative;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+  }
+
+  .caja1{
+    background-color: #C0392B;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja1:hover{
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+  }
+
+  .caja2{
+    background-color: #9B59B6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja2:hover{
+    -webkit-transform: rotate(650deg);
+    transform: rotate(650deg);
+  }
+
+  .caja3{
+    background-color: #2980B9;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja3:hover{
+    -webkit-transform: skew(13deg);
+    transform: skew(13deg);
+  }
+
+  .caja4{
+    background-color: #3498DB;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja4:hover{
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+  }
+
+  .caja5{
+    background-color: #17A589;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja5:hover{
+    -webkit-transform: skewY(30deg);
+    transform: skewY(30deg);
+  }
+
+  .caja6{
+    background-color: #F1C40F;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja6:hover{
+    -webkit-transform: translate(20%);
+    transform: translate(20%);
+  }
+
+  .caja7{
+    background-color: #E67E22;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja7:hover{
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+  }
+
+  .caja8{
+    background-color: #95A5A6;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja8:hover{
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+
+  .caja9{
+    background-color: #2C3E50;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja9:hover{
+    -webkit-transform: perspective(400px)rotateX(45deg);
+    transform: perspective(400px)rotateX(45deg);
+  }
+
+  .caja10{
+    background-color: #808080;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja10:hover{
+    -webkit-transform: perspective(400px)rotateY(45deg);
+    transform: perspective(400px)rotateY(45deg);
+  }
+
+  .caja11{
+    background-color: black;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+
+  .caja11:hover{
+    -webkit-transform: matrix(1, 2, -1, 1, 80, 80);
+    transform: matrix(1, 2, -1, 1, 80, 80);
+  }
