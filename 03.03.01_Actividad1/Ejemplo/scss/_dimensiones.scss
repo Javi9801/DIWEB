@@ -1,0 +1,28 @@
+/*Estilos para el contenedor general de mi página*/
+$main-container-width: 80%;
+
+.container {
+    width: $main-container-width;
+    margin: 0 auto;
+}
+
+
+// Ancho de los bordes
+$border-width: 0.1rem;
+
+// Estilo de los bordes
+$border-style: "solid";
+
+
+// Borde de redondeado pequeño para los elementos
+$border-radius-small: 0.2rem;
+
+// Borde de redondeado mediano para los elementos
+$border-radius: 1rem;
+
+// Borde de redondeado mediano para los elementos
+$boder-radius-big: 2rem;
+
+
+// Valor del radio para redondear los botones
+$btn-border-radius: 0.4rem;
