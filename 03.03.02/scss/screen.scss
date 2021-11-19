@@ -1,0 +1,29 @@
+@import 'menu';
+
+$color_texto : #eee;
+$color_texto_hover: #fff;
+$color_fondo: #666;
+$color_fondo_hover: #888;
+
+
+@mixin estableceColores() {
+    background-color: $color_fondo;
+    color: $color_texto;
+}
+
+@mixin estableceColoresHover() {
+    background-color: $color_fondo_hover;
+    color: $color_texto_hover;
+}
+
+@mixin estableceBoxSizing($tamano) {
+    box-sizing: $tamano;
+}
+
+@mixin transiciones($property, $duration, $timing){
+    transition: $property, $duration, $timing;
+}
+
+@mixin animaciones($name, $duration, $timing){
+    animation: $name, $duration, $timing;
+}
