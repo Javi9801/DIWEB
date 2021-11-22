@@ -83,15 +83,17 @@ nav a:hover {
           animation: iluminar, 0.4s, linear;
 }
 
-li .categoria {
+.categoria {
   float: left;
 }
-li .categoria > a {
+.categoria > a {
   transition: padding, 0.4s, ease-out;
 }
-li .categoria:hover ul.submenu {
+
+.categoria:hover ul.submenu {
   height: 100px;
 }
-li .categoria:hover > a {
+
+.categoria:hover > a {
   padding: 10px 20px;
 }/*# sourceMappingURL=screen.css.map */
