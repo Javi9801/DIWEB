@@ -1,4 +1,4 @@
-@import 'menu';
+
 
 $color_texto : #eee;
 $color_texto_hover: #fff;
@@ -6,12 +6,12 @@ $color_fondo: #666;
 $color_fondo_hover: #888;
 
 
-@mixin estableceColores() {
+@mixin estableceColores {
     background-color: $color_fondo;
     color: $color_texto;
 }
 
-@mixin estableceColoresHover() {
+@mixin estableceColoresHover {
     background-color: $color_fondo_hover;
     color: $color_texto_hover;
 }
@@ -27,3 +27,30 @@ $color_fondo_hover: #888;
 @mixin animaciones($name, $duration, $timing){
     animation: $name, $duration, $timing;
 }
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 12px 30px;
+    font-size: 1.8em;
+    color: #444;
+    background-color: #eee;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    @include estableceColores;
+    @include estableceBoxSizing(border-box);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+
+}
+
+@import 'menu';

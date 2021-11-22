@@ -1,3 +1,97 @@
-p {
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding: 12px 30px;
+  font-size: 1.8em;
+  color: #444;
+  background-color: #eee;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #aaa;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
   background-color: #666;
+  color: #eee;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+}
+
+@-webkit-keyframes iluminar {
+  from {
+    background-color: #666;
+    color: #eee;
+  }
+  to {
+    background-color: #888;
+    color: #fff;
+  }
+}
+
+@keyframes iluminar {
+  from {
+    background-color: #666;
+    color: #eee;
+  }
+  to {
+    background-color: #888;
+    color: #fff;
+  }
+}
+nav {
+  position: absolute;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav > ul {
+  width: 100%;
+  height: 32px;
+  background-color: #666;
+  color: #eee;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+nav ul .submenu {
+  transition: height, 0.5s, ease-out;
+  position: absolute;
+  height: 0px;
+  overflow: hidden;
+}
+nav a {
+  text-decoration: none;
+  width: 160px;
+  padding: 7px 20px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  background-color: #666;
+  color: #eee;
+}
+nav a:hover {
+  background-color: #888;
+  color: #fff;
+  -webkit-animation: iluminar, 0.4s, linear;
+          animation: iluminar, 0.4s, linear;
+}
+
+li .categoria {
+  float: left;
+}
+li .categoria > a {
+  transition: padding, 0.4s, ease-out;
+}
+li .categoria:hover ul.submenu {
+  height: 100px;
+}
+li .categoria:hover > a {
+  padding: 10px 20px;
 }/*# sourceMappingURL=screen.css.map */
