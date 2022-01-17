@@ -1,0 +1,132 @@
+div{
+    border: 2px solid white;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media (max-width: 2000px) {
+
+    .header{
+        background-color: #29FE2F;
+        text-align: left;
+    }
+
+    .uno{
+        background-color: #FC0D1B;
+        height: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .dos{
+        background-color: #FC0D1B;
+        height: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .tres{
+        background-color: #FC0D1B;
+        height: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .footer1{
+        background-color: #FFFE38;
+        text-align: right;
+    }
+
+    .footer2{
+        background-color: #FFFE38;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header{
+        background-color: #2DFFFF;
+        text-align: center;
+    }
+
+    .uno{
+        background-color: #FC0D1B;
+        height: 300px;
+        font-size: 50px;
+        text-align: left;
+        padding-top: 100px;
+    }
+
+    .dos{
+        background-color: #FC0D1B;
+        height: 300px;
+        font-size: 50px;
+        text-align: right;
+        padding-top: 100px;
+    }
+
+    .tres{
+        background-color: #29FE2F;
+        height: 300px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .footer1{
+        background-color: #FFFE38;
+        text-align: center;
+    }
+
+    .footer2{
+        background-color: #FFFE38;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .header{
+        background-color: #FEB385;
+        text-align: center;
+    }
+
+    .uno{
+        background-color: #FC0D1B;
+        height: 250px;
+        font-size: 50px;
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    .dos{
+        background-color: #2DFFFF;
+        height: 250px;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .tres{
+        background-color: #29FE2F;
+        height: 250px;
+        font-size: 50px;
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    .footer1{
+        background-color: #FFFE38;
+        text-align: center;
+    }
+
+    .footer2{
+        background-color: #FFFE38;
+        text-align: center;
+    }
+}
