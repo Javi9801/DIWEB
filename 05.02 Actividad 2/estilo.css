@@ -1,0 +1,30 @@
+div{
+    border: 2px solid white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.verde{
+    background-color: #29FE2F;
+    height: 50px;
+}
+
+.gris{
+    background-color: #CCCCCD;
+    height: 50px;
+}
+
+.amarillo {
+    background-color: #FE9A5D;
+    height: 50px;
+}
+
+.azul {
+    background-color: #88ABDD;
+    height: 50px;
+}
+
+.azulClaro {
+    background-color: rgb(18, 173, 201);
+    height: 50px;
+}
