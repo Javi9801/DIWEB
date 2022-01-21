@@ -1,0 +1,24 @@
+.azul{
+    background-color: #17A2B8;
+    padding: 10px;
+    height: 200px;
+    width: 240px;
+    margin-left: 20px;
+
+}
+
+.azul p{
+    color: #203035;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px;
+    border: 1px solid #007BFF;
+    padding: 15px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
