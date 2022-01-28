@@ -1,0 +1,40 @@
+.sobre {
+  top: 100px;
+  left: 30px;
+  opacity: 0.7;
+  background-color: grey;
+  color: white;
+  transform: rotate(10deg);
+  border: 1px solid red;
+}
+
+.destacar{
+  text-align: center;
+  background-color: #28A745;
+  font-size: 30px;
+  color: white;
+}
+
+.container{
+  margin-top: 200px;
+}
+
+.logo_inicio{
+  text-align: center;
+}
+
+.pie{
+  background-color: #28A745;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.pie img{
+  width: 100px;
+  height: 100px;
+}
+
+.img img{
+  text-align: center;
+}
